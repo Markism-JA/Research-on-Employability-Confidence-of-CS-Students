@@ -103,7 +103,8 @@ Execute the `Generate-survey-config.py` script from the root of the project dire
 python Generate-survey-config.py \
   --input "data/raw/your_data_file.ods" \
   --config "config/survey_config.yaml" \
-  --outdir "outputs"```
+  --outdir "outputs"
+```
 
 After the script finishes, all generated tables and figures will be available in the `outputs/` directory. A log of the run will be saved in `outputs/logs/run.log`.
 
