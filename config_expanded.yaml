@@ -1,0 +1,71 @@
+id_columns:
+- timestamp
+group_columns:
+  year: year_level
+  section: section
+nominal_evidence:
+  portfolio: I have a portfolio of completed projects that I can showcase to potential
+    employers.
+  hackathon: I have participated in hackathons, coding competitions, or related extracurricular
+    activities that demonstrate my skills.
+  certifications: I have obtained certifications or badges relevant to computer science
+    or technology.
+  linked_in: I maintain an up-to-date LinkedIn profile, online professional presence,
+    GitHub Account that highlights my projects and skills.
+nominal_yes_values:
+- 'Yes'
+- Y
+- '1'
+- 1
+- true
+nominal_no_values:
+- 'No'
+- N
+- '0'
+- 0
+- false
+domains:
+  technical:
+    items:
+    - I can write computer programs to solve problems assigned in class.
+    - I am confident in using programming languages and software tools commonly required
+      in the tech industry.
+    - I can learn and apply a new programming language or software tool with minimal
+      guidance.
+    - I can independently design and implement a functional software project from
+      start to finish.
+    reverse_scored: []
+  soft:
+    items:
+    - I can clearly explain technical concepts to classmates, colleagues, or non-technical
+      individuals.
+    - I can contribute effectively to a team project, completing assigned tasks on
+      time.
+    - I can prioritize tasks and manage my time to meet deadlines.
+    - I can identify solutions to unexpected problems during a project or assignment.
+    reverse_scored: []
+  job_readiness:
+    items:
+    - I feel ready to apply for an entry-level job in the technology industry after
+      graduation.
+    - I believe I have the skills employers expect from computer science graduates.
+    - I am confident in handling typical technical interview questions or assessments.
+    - I feel prepared to take on responsibilities in a professional work environment.
+    reverse_scored: []
+  industry_trend:
+    items:
+    - I understand how AI and automation are changing employment opportunities in
+      technology.
+    - I can adapt my technical and soft skills to meet evolving industry requirements.
+    - I actively seek ways to improve my employability, such as participating in projects,
+      internships, or additional training.
+    reverse_scored: []
+likert_valid_values:
+- 1
+- 2
+- 3
+- 4
+- 5
+composite_min_coverage: 0.7
+alpha: 0.05
+bootstrap_ci: false

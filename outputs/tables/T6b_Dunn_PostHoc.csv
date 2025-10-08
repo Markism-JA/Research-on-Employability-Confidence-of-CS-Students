@@ -1,0 +1,10 @@
+group1,group2,p_adj,variable
+3,2,0.21116524903261047,score_technical
+4,2,0.004301523278023255,score_technical
+4,3,0.10539709650094162,score_technical
+3,2,0.28619585242416,score_soft
+4,2,0.015571065156783198,score_soft
+4,3,0.16780724905231,score_soft
+3,2,0.16593648522819737,score_job_readiness
+4,2,0.004575400798862969,score_job_readiness
+4,3,0.14869180327530793,score_job_readiness

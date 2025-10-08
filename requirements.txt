@@ -1,0 +1,26 @@
+# for reading odf
+odfpy
+
+# for yaml config
+PyYAML
+
+# main tool for dataset
+pandas
+
+# for numerical computations
+numpy
+
+# Statistical Analysis
+scipy
+pingouin
+scikit-posthocs
+openpyxl
+
+
+
+# Visualization
+matplotlib
+seaborn
+
+# For regression analysis 
+# Optional: statsmodels

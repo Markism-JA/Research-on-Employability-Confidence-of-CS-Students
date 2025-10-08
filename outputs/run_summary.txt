@@ -1,0 +1,21 @@
+--- Analysis Run Summary: 2025-08-26 23:44:34 ---
+
+Total Respondents (after de-duplication): 60
+Respondents by Year Level:
+year_level
+2    20
+3    20
+4    20
+
+--- Significant Findings (alpha = 0.05) ---
+
+Significant results for Kruskal-Wallis tests:
+           variable         H  df        p  epsilon_squared
+    score_technical 10.319084   2 0.005744         0.145949
+         score_soft  7.957959   2 0.018705         0.104526
+score_job_readiness 10.101094   2 0.006406         0.142124
+Significant results for Chi-Square tests:
+                                                                                                                        item      chi2  df        p  CramerV
+                                         i_have_a_portfolio_of_completed_projects_that_i_can_showcase_to_potential_employers  6.720000   2 0.034735 0.334664
+      i_have_participated_in_hackathons_coding_competitions_or_related_extracurricular_activities_that_demonstrate_my_skills  9.447709   2 0.008881 0.396815
+i_maintain_an_up_to_date_linkedin_profile_online_professional_presence_github_account_that_highlights_my_projects_and_skills 19.090909   2 0.000072 0.564076

@@ -1,0 +1,15 @@
+demographics:
+  index_range: [1, 4]
+
+domains:
+  technical:
+    index_range: [5, 8]
+  soft:
+    index_range: [9, 12]
+  job_readiness:
+    index_range: [13, 16]
+  industry_trend:
+    index_range: [17, 19]
+
+employability_evidence:
+  index_range: [20, 23]
