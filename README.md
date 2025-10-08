@@ -2,7 +2,7 @@
 
 This repository contains the data analysis script and configuration for my research paper, "Perceived Employability Confidence Among Computer Science Undergraduates in STI College Caloocan." The project analyzes survey data to understand student confidence across various domains and their accumulation of tangible career assets.
 
-The analysis follows a quantitative, descriptive-comparative design. The main Python script (`Generate-survey-config.py`) automates the entire process, from data loading and cleaning to statistical testing and the generation of all tables and figures used in the final paper.
+The analysis follows a quantitative, descriptive-comparative design. The main Python script (`analysis.py`) automates the entire process, from data loading and cleaning to statistical testing and the generation of all tables and figures used in the final paper.
 
 ## Project Goal
 
@@ -34,7 +34,7 @@ project/
 │   ├── tables/               # All generated tables (T1–T7)
 │   └── figures/              # All generated figures (F1–F6)
 ├── .gitignore                
-├── Generate-survey-config.py               # The main data analysis script
+├── analysis.py               # The main data analysis script
 ├── README.md                 # This file
 └── requirements.txt          # A list of all required Python libraries
 ```
@@ -97,10 +97,10 @@ Review the `config/survey_config.yaml` file to ensure the column names and Liker
 
 ### 5. Run the Script
 
-Execute the `Generate-survey-config.py` script from the root of the project directory, pointing to your input file and config.
+Execute the `analysis.py` script from the root of the project directory, pointing to your input file and config.
 
 ```bash
-python Generate-survey-config.py \
+python analysis.py \
   --input "data/raw/your_data_file.ods" \
   --config "config/survey_config.yaml" \
   --outdir "outputs"
