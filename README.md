@@ -1,5 +1,3 @@
-# Perceived Employability Confidence of CS Students: Data Analysis
-
 This repository contains the data analysis script and configuration for my research paper, "Perceived Employability Confidence Among Computer Science Undergraduates in STI College Caloocan." The project analyzes survey data to understand student confidence across various domains and their accumulation of tangible career assets.
 
 The analysis follows a quantitative, descriptive-comparative design. The main Python script (`analysis.py`) automates the entire process, from data loading and cleaning to statistical testing and the generation of all tables and figures used in the final paper.
